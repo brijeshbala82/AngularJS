@@ -1,0 +1,9 @@
+<div>
+	<h1>Atlanta Meetup</h1>
+	<hr/>
+		<ul class = 'thumbnails'>
+			<li ng-repeat = "events in events | orderBy:sortorder" class = "span5">
+				<eventthumbnail events="events"/>
+			</li>
+		</ul>
+</div>
