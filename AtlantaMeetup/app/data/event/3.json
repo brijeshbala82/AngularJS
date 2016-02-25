@@ -1,0 +1,42 @@
+{  
+   "id":3,
+   "creator":"joeeames",
+   "name":"Code Retreat",
+   "date":"03/16/2013",
+   "time":"8:00am - 4:30pm",
+   "location":{  
+      "address":"3000 Spring Hill PKWY",
+      "city":"Smyrna",
+      "province":"GA"
+   },
+   "imageUrl":"http://photos3.meetupstatic.com/photos/event/c/f/5/8/600_446333080.jpeg",
+    "sessions": [
+                {
+					"id": 1,
+                    "name": "Web Performance Meetup",
+                    "creatorName": "Bob Smith",
+                    "duration": 1,
+                    "level": "Advanced",
+                    "abstract": "This meetup is moving to the social/presentation format as well. Show up first for free food and drinks to network with other passionate performance people. Afterwards we will have a presentation about cool web performance topics.",
+                    "upVoteCount": 0
+                },
+                {
+					"id": 2,
+                    "name": "Developer Office Hours",
+                    "creatorName": "John Doe",
+                    "duration": 3,
+                    "level": "Introductory",
+                    "abstract": "TDeveloping an app or hardware solution? We have equipment like tablets, phones, 3-D printing, Microsoft Bands, and IoT Kits available for testing. We also have some hardware kits you can borrow to further your development. Looking for space to come and work either on your own or with your team?",
+                    "upVoteCount": 0
+                },
+                {
+					"id": 3,
+                    "name": "Saint Tomster's Day",
+                    "creatorName": "Jane Doe",
+                    "duration": 2,
+                    "level": "Intermediate",
+                    "abstract": "We need folks to talk about things! It can be anything you think the community would find cool/useful. Topics could include.",
+                    "upVoteCount": 0
+                }
+            ]
+}
