@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang = 'en' ng-app = 'eventsApp'> 
+<head>
+	<base href='/'></base>
+	<title>Event Registration</title>
+	<link rel="stylesheet" type="text/css" href="http://localhost:8000/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost:8000/css/app.css">
+</head>
+<body>
+
+	<div class = "container">
+		<div class=	"navbar">
+			<div class=	"navbar-inner">
+				<ul class = "nav">
+					<li ><a href ="newEvent">Create Event</a></li>
+				</ul>
+			</div>
+		</div>
+
+		 <ng-view></ng-view>
+
+    </div>
+
+   
+
+
+
+<script src= 'http://localhost:8000/lib/jquery.min.js'></script>
+<script src= 'http://localhost:8000/lib/angular/angular.js'></script>
+<script src= 'http://localhost:8000/lib/angular/angular-resource.js'></script>
+<script src= 'http://localhost:8000/lib/angular/angular-route.min.js'></script>
+<script src= 'http://localhost:8000/lib/underscore-1.4.4.min.js'></script>
+<script src= 'http://localhost:8000/js/app.js'></script>
+<script src= 'http://localhost:8000/js/controllers/EventController.js'></script>
+<script src= 'http://localhost:8000/js/controllers/EditEventController.js'></script>
+<script src= 'http://localhost:8000/js/controllers/EventListController.js'></script>
+<script src= 'http://localhost:8000/js/services/eventData.js'></script>
+<script src= 'http://localhost:8000/js/filters.js'></script>
+
+<script src= 'http://localhost:8000/js/directives/eventThumbnail.js'></script>
+<script src= 'http://localhost:8000/js/directives/upvote.js'></script>
+<script src= 'http://localhost:8000/js/directives/collapsible.js'></script>
+<script src= 'http://localhost:8000/lib/bootstrap.min.js'></script>	
+</body>
+</html
