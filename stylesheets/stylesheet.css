@@ -112,7 +112,8 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #159957; 
+clear: both;}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -243,3 +244,10 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.thamb{
+    float: left;
+    width: 388px;
+    height: 171px;
+    margin: 44px 11px;
+  }
